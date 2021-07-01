@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListaTeste.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkSeaGreen" Padding="10" CornerRadius="0">
+            <Label Text="Minha Listinha" HorizontalTextAlignment="Center" TextColor="DodgerBlue" FontSize="36"/>
+        </Frame>
+        <Label Text="Nome do Item: "/>
+        <Entry x:Name="entrada"/>
+        <ListView x:Name="Mercado" BackgroundColor="Black" ItemSelected="Mercado_ItemSelected" IsVisible="true"  />
+        <Button Text="Salvar" Clicked="Button_Salvar"/>
+        <Button Text="Excluir Item" Clicked="Button_ExcluirItem"/>
+        <Button Text="Atualizar Item" Clicked="Button_AtualizarItem"/>
+
+    </StackLayout>
+
+</ContentPage>

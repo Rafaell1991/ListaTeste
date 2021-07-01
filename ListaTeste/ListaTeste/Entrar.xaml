@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListaTeste.Entrar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Informe suas credenciais"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Entrar" Clicked="Button_Entrar" />
+            <Entry Placeholder="Usuário" x:Name="Usuario"/>
+            <Entry IsPassword="True" Placeholder="Senha" x:Name="Senha"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
