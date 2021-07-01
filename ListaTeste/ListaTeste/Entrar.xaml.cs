@@ -19,7 +19,7 @@ namespace ListaTeste
 
         private void Button_Entrar(object sender, EventArgs e)
         {
-            if (Usuario.Text == "Rafael" && Senha.Text == "123")
+            if (Usuario.Text == "Rafael" && Senha.Text == "1234")
                 App.Current.MainPage = new MainPage();
             else
                 DisplayAlert("Atenção","Usuário e/ou senha incorretos. Tente novamente", "Entendi");
