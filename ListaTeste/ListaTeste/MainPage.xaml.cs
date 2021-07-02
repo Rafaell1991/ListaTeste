@@ -18,7 +18,7 @@ namespace ListaTeste
 
         private void Mercado_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            entrada.Text = e.SelectedItem.ToString().Substring(e.SelectedItem.ToString().IndexOf(" ") + 1);// e.SelectedItem.ToString().Split()[1];
+            entrada.Text = e.SelectedItem.ToString().Substring(e.SelectedItem.ToString().IndexOf(" ") + 1);
         }
 
         private void Button_Salvar(object sender, EventArgs e)
